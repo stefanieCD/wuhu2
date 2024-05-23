@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.banxin {
+  width: 750px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+.top img {
+  width: 40px;
+  margin-right: 20px;
+}
+.top h1 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.che {
+  margin-top: 20px;
+}
+.che img {
+  width: 100%;
+}
+.par {
+  padding-left: 20px;
+  height: 600px;
+}
+.par h1 {
+  font-weight: 400;
+  width: 300px;
+  font-size: 25px;
+}
+.par span {
+  color: #8E8E8E;
+  margin: 10px 0;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.box div {
+  margin: 20px 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 2px solid #5578F2;
+  border-radius: 25px;
+  color: #5578F2;
+}
+.box div:nth-child(1) {
+  width: 160px;
+}
+.box div:nth-child(2) {
+  width: 300px;
+}
+.box div:nth-child(3) {
+  width: 150px;
+}
+.nr h1 {
+  margin: 20px 0;
+}
+.nr p {
+  line-height: 30px;
+}
+.nr a {
+  color: #5578F2;
+}
+.qian {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #5578F2;
+}
+.an {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+}
+.an ul {
+  width: 750px;
+  margin-left: 55px;
+}
+.an ul li {
+  background-color: #e5e3e3;
+  float: left;
+  width: 40%;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  color: #5578F2;
+}
+.an ul li:nth-child(2) {
+  background-color: #5578F2;
+}
+.an ul li:nth-child(2) a {
+  color: #fff;
+}
+
+/* New navigation styles */
+.nav {
+  background: linear-gradient(to right, #5578F2, #4a6cd3, #4058a4);
+  padding: 10px 0;
+  margin-top: 20px;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav ul li {
+  flex: 1;
+  text-align: center;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  display: block;
+  padding: 10px 0;
+  transition: background 0.3s;
+}
+.nav ul li a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}

@@ -1,0 +1,168 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.banxin {
+  width: 750px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+.top img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+.top h1 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.To p {
+  font-size: 25px;
+  color: #4D79FD;
+}
+.To span {
+  font-size: 20px;
+  color: #A0A0A0;
+}
+.h3 {
+  height: 70px;
+}
+.h3 h3 {
+  margin-left: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.h3 h3 span {
+  margin-left: 130px;
+}
+.h3 input {
+  outline: none;
+  border: 1px solid #bbb;
+}
+.h3 input:nth-child(1) {
+  margin-left: 50px;
+}
+.h3 .he {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+.h3 .he .img {
+  margin-left: 40px;
+}
+.h3 .he .img1 {
+  margin-left: 10px;
+}
+.h3 .z1 {
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+  float: left;
+}
+.h3 .z2 {
+  margin-left: 10px;
+  width: 50px;
+  height: 30px;
+  float: left;
+}
+.h3 .xian {
+  width: 400px;
+  height: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #4D79FC;
+  float: left;
+}
+.h3 .xs {
+  position: relative;
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 6px solid #4D79FC;
+  text-align: center;
+  float: left;
+}
+.h3 .xs1 {
+  position: absolute;
+  top: -40px;
+  left: -20px;
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 10px;
+  background-color: #4D79FC;
+  color: #fff;
+}
+.rl {
+  padding: 0 25px ;
+  width: 750px;
+  height: 500px;
+}
+.rl h3 {
+  margin: 20px 0;
+  font-weight: 400;
+}
+.rl h3 span {
+  float: right;
+}
+.rl h3 span:nth-child(1) {
+  color: #879DE7;
+}
+.rl ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0 105px;
+}
+.rl ul li {
+  width: 70px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 50px;
+}
+.rl ul li:nth-child(23) {
+  background-color: #4D79FD;
+  color: #fff;
+}
+.con {
+  width: 750px;
+  height: 60px;
+  text-align: center;
+  border-radius: 15px;
+  line-height: 60px;
+  background-color: #4D79FC;
+}
+.con button {
+  cursor: pointer;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  background-color: #4D79FC;
+  color: #fff;
+  font-size: 20px;
+}

@@ -1,0 +1,77 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.banxin {
+  width: 750px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+.top img {
+  width: 40px;
+  margin-right: 20px;
+}
+.top h1 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.djs {
+  width: 400px;
+  height: 400px;
+  padding-top: 40px;
+  margin-bottom: 30px;
+  border-radius: 200px;
+  border: 10px solid #4D79FC;
+  line-height: 300px;
+  text-align: center;
+  font-size: 60px;
+}
+.par {
+  width: 750px;
+  height: 600px;
+  padding: 0 50px;
+}
+.par p {
+  color: #9D9D9D;
+  margin-bottom: 50px;
+  font-size: 19px;
+}
+.par span {
+  float: right;
+  color: #000;
+  font-size: 20px;
+}
+.con {
+  width: 750px;
+  height: 60px;
+  text-align: center;
+  border-radius: 15px;
+  line-height: 60px;
+  background-color: #4D79FC;
+}
+.con a {
+  color: #fff;
+}

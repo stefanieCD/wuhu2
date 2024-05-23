@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  align-items: center;
+  /* 水平居中 */
+  justify-content: center;
+  /* 垂直居中 */
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background-color: #f5f5f5;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* 手机号码占位符 */
+#phone::placeholder {
+  color: #999;
+}
+
+/* 电子邮件占位符 */
+#email::placeholder {
+  color: #999;
+}
+
+/* 国家下拉菜单样式 */
+#country {
+  width: 100%;
+}
+
+/* 性别下拉菜单样式 */
+#gender {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+  margin: 20px 0;
+  padding: 15px 0;
+  font-size: large;
+  border-radius: 20px;
+  color: #fff;
+  background-color: blue;
+}

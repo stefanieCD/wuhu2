@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+  }
+  body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  li {
+    list-style: none;
+  }
+  .container {
+    width: 750px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  .header .back-button {
+    font-size: 18px;
+    color: #5578F2;
+    text-decoration: none;
+  }
+  .content {
+    margin-bottom: 20px;
+  }
+  .content .checkmark-icon {
+    width: 150px; /* Increased size */
+    height: 150px; /* Increased size */
+    margin-bottom: 20px;
+  }
+  .content h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .content p {
+    font-size: 18px;
+    color: #555;
+  }
+  .footer-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .footer-buttons .first-bt,
+  .footer-buttons .second-bt {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #5578F2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .footer-buttons .second-bt {
+    background-color: #d9534f;
+  }
+  .footer-buttons .first-bt:hover {
+    background-color: #4058a4;
+  }
+  .footer-buttons .second-bt:hover {
+    background-color: #c9302c;
+  }
+  
+  /* New navigation styles */
+  .footer {
+    background: linear-gradient(to right, #5578F2, #4a6cd3, #4058a4);
+    padding: 10px 0;
+    margin-top: 50px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .footer ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .footer ul li {
+    flex: 1;
+    text-align: center;
+  }
+  .footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    padding: 10px 0;
+    transition: background 0.3s;
+  }
+  .footer ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  

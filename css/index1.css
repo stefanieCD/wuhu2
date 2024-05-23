@@ -1,0 +1,112 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #fff;
+  height: 100%;
+}
+li {
+  list-style: none;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.banxin {
+  width: 750px;
+  margin: 0 auto;
+}
+.top {
+  display: flex;
+  justify-content: flex-start;
+}
+.top img {
+  width: 40px;
+  margin-right: 20px;
+}
+.top h1 {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 40px;
+}
+.nr .tou ul {
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.nr .tou ul li {
+  margin-right: 30px;
+  width: 200px;
+  text-align: center;
+  border-radius: 20px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #4D79FC;
+  color: #4D79FC;
+}
+.nr .tou ul li:nth-child(1) {
+  background-color: #4D79FC;
+  color: #fff;
+}
+.nr .En {
+  height: 800px;
+}
+.nr .En h3 {
+  float: left;
+  font-weight: 300;
+  font-size: 30px;
+  height: 800px;
+  width: 200px;
+  text-align: center;
+}
+.nr .En .right {
+  float: left;
+  height: 800px;
+  width: 550px;
+}
+.nr .En .right ul li {
+  padding-left: 90px;
+  width: 550px;
+  height: 70px;
+  margin-top: 20px;
+}
+.nr .En .right ul li img {
+  float: left;
+  width: 150px;
+  margin-left: 20px;
+}
+.nr .En .right ul li .he {
+  margin-left: 20px;
+  font-size: 20px;
+  width: 150px;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  border-radius: 15px;
+  border: 1px solid #4D79FC;
+  color: #4D79FC;
+  float: left;
+}
+.nr .En .right ul:nth-child(2) {
+  margin-top: 200px;
+}
+.con {
+  width: 750px;
+  height: 60px;
+  text-align: center;
+  border-radius: 15px;
+  line-height: 60px;
+  background-color: #4D79FC;
+}
+.con a {
+  color: #fff;
+}
